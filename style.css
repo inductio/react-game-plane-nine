@@ -1,0 +1,43 @@
+.container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.stars .glyphicon {
+    font-size: 2em;
+    margin: 0.25em;
+    color: #3069b2;
+}
+.answers {
+    min-height: 82px;
+}
+.nums .number, .answers span {
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 0 0.3em;
+    background: #D4D4D4;
+    height: 2.25em;
+    width: 2.25em;
+    line-height: 2.25em;
+    border-radius: 50%;
+    color: #464646;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.answers span {
+    background: #71C76B;
+    color: #FFFEFE;
+}
+
+.number.selected-true {
+    background: #71C76B;
+    color: #FFFEFE;
+    cursor: not-allowed;
+}
+
+.number.used-true {
+    background: #bac7b2;
+    color: #35ac73;
+    cursor: not-allowed;
+}
