@@ -1,5 +1,4 @@
 .container {
-    text-align: center;
     margin-top: 30px;
 }
 
@@ -37,7 +36,7 @@
 }
 
 .number.used-true {
-    background: #bac7b2;
-    color: #35ac73;
+    background: #EAEAEA;
+    color: #FDFDFD;
     cursor: not-allowed;
 }
